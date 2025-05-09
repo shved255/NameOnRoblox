@@ -1,0 +1,115 @@
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+        body {
+            font-family: 'Source Code Pro', monospace;
+            background-color:goldenrod;
+            transform: scale(1.7);
+        }
+        input::placeholder {
+            color: gray;
+            opacity: 1;
+        }
+        .slash {
+            color: gray;
+            position: absolute;
+            top: 289px;
+            left: 9px;
+            font-weight: 1000;
+        }
+        .inputCard {
+            position: absolute;
+            top: 270px;
+            left: 950px;
+        }
+        .inputCard1 {
+            position: absolute;
+            top: 300px;
+            left: 950px;
+            width: 20px; 
+            height: 20px;
+        }
+        .inputCard2 {
+            position: absolute;
+            top: 300px;
+            left: 990px; 
+            width: 20px;
+            height: 20px;
+        }
+        .inputCard3 {
+            position: absolute;
+            top: 335px;
+            left: 950px; 
+        }
+        .inputCard4 {
+            position: absolute;
+            top: 365px;
+            left: 950px;
+        }
+        .inputCard5 {
+            position: absolute;
+            top: 395px;
+            left: 950px;
+        }
+        .image {
+            position: absolute;
+            top: -30px;
+            left: 680px;
+            width: 200px;
+            height: 310px;
+        }
+        .name {
+            color: black;
+            font-size: 50px;
+            position: absolute;
+            top: 5px;
+            left: 880px;
+        }
+        .nomer {
+            color:black;
+            font-size: 13px;
+            font-weight: 100px;
+            position: absolute;
+            top: 258px;
+            left: 770px;
+        }
+        .srok {
+            color:black;
+            font-size: 13px;
+            font-weight: 100px;
+            position: absolute;
+            top: 290px;
+            left: 770px;
+        }
+        .code {
+            color:black;
+            font-size: 13px;
+            font-weight: 100px;
+            position: absolute;
+            top: 325px; 
+            left: 770px;
+        }
+        .nameC {
+            color:black;
+            font-size: 13px;
+            font-weight: 100px;
+            position: absolute;
+            top: 356px; 
+            left: 770px;
+        }
+        .cvc {
+            color:black;
+            font-size: 13px;
+            font-weight: 100px;
+            position: absolute;
+            top: 386px; 
+            left: 770px;
+        }
+        .button {
+            background-color: #e9399c; 
+            position: absolute; 
+            top: 450px; 
+            left: 830px; 
+            color: white; 
+            font-weight: 900; 
+            padding: 5px 10px; 
+            border-radius: 5px;
+        }
